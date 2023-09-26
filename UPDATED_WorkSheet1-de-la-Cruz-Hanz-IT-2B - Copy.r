@@ -92,9 +92,10 @@ dataPointMultiples #the outputs are 21 and 24
 length(dataPointMultiples) #there are 2 data points in the 10:11
 
 
-BlocksofCode <- { x <- 0 + x + 5 + } #there is an error when you run this line of code
-#Error: unexpected '}' in "BlocksofCode <- { x <- 0 + x + 5 +}"
-
+BlocksofCode <- {  
+x <- 0 + x + 5 
+}  # The amount adds 5 each time I run the program
+BlocksofCode
 
 score <- c(72,86,92,63,88,89,91,92,75,75,77)
 
